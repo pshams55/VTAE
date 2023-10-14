@@ -63,3 +63,15 @@ bash scripts/test.sh logs/celeba-vgg16/model_best.pth.tar vgg16 celeba
 In the test.sh.
 In case you want to fasten testing, enlarge GPUS for more GPUs, or enlarge the --test-batch-size on one GPU.
 In case your GPU does not have enough memory, reduce --test-batch-size on one GPU.
+
+
+## References
+If you find our work useful for your research, please consider citing our paper:
+```bibtex
+@article{shamsolmoali2023vtae,
+  title={VTAE: Variational Transformer Autoencoder with Manifolds Learning},
+  author={Shamsolmoali, Pourya and Zareapoor, Masoumeh and Zhou, Huiyu and Tao, Dacheng and Li, Xuelong},
+  journal={IEEE Transactions on Image Processing},
+  year={2023}
+}
+```
