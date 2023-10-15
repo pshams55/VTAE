@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jan 20 15:49:44 2019
+Created on Sun Jun 25 19:27:34 2023
 
-@author: nsde
 """
 #%%
 from sup.helper.utility import count_parameters
