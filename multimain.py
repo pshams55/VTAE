@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jan 10 07:59:17 2019
+Created on Thu Aug 10 05:53:19 2023
 
-@author: nsde
 """
 
 #%% 
