@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 18 07:30:05 2019
+Created on Sun Sep 23 10:01:24 2023
 
-@author: nsde
 """
 
 #%%
