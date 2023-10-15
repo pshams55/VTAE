@@ -27,42 +27,16 @@ logs
 The Celeba-pretrained weights for CNN's backbone or the pretrained weights for the model.
 
 ## Training
-Train by running a script in the terminal. Script location: scripts/train.sh
+Train by running a script in the terminal. train.py
 
-Format:
-```shell
-bash scripts/train.sh arch
-```
-where, **arch** is the backbone name, such as vgg16.
 
-For example:
-```shell
-bash scripts/train.sh vgg16
-```
-
-In the train.sh.
+In the train.py.
 In case you want to speed up testing, enlarge GPUS for more GPUs, or enlarge the --tuple-size for more tuples on one GPU.
 In case your GPU does not have enough memory, reduce --pos-num or --neg-num for fewer positives or negatives in one tuple.
 
 ## Testing
-Test by running a script in the terminal. Script location: scripts/test.sh
+Test by running a script in the terminal. Script test.py
 
-Format:
-```shell
-bash scripts/test.sh resume arch dataset scale
-```
-where, **resume** is the trained model path.
-       **arch** is the backbone name, such as vgg16.
-       **dataset scale**, such as celeba.
-
-For example:
-1. Test vgg16 on celeba:
-```shell
-bash scripts/test.sh logs/celeba-vgg16/model_best.pth.tar vgg16 celeba
-```
-In the test.sh.
-In case you want to fasten testing, enlarge GPUS for more GPUs, or enlarge the --test-batch-size on one GPU.
-In case your GPU does not have enough memory, reduce --test-batch-size on one GPU.
 
 
 ## References
